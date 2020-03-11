@@ -39,7 +39,7 @@ if your option value contains whitespace, you should quote value with `""`
 
 i.e. : [title="my name is peter"] instead of [title=my name is peter]
 
-cause in latter case, hexo will split it into different arguments: `[title=my`(arg1), `name`(arg2), `is`(arg3), `peter`(arg4)
+cause in latter case, hexo will split it into different arguments: `[title=my`(arg1), `name`(arg2), `is`(arg3), `peter]`(arg4)
 
 ## demo
 [zmou's blog](https://blog.dzmtoast.top/about)
