@@ -1,0 +1,41 @@
+<div class="vkr-url-wrapper">
+<style>
+.vkr-url-wrapper {
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #eee #ddd #bbb;
+    box-shadow: rgba(0,0,0,.14) 0 1px 3px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.vkr-url-wrapper hr {
+    margin: 10px 0;
+    height: 1px;
+}
+.vkr-url-wrapper .avatar {
+    width: 100px;
+    height: 100px;
+    border: solid 1px #eee;
+    box-shadow: none!important;
+    margin: 0;
+    margin-right: 10px;
+}
+.vkr-url-wrapper h2 {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.vkr-url-wrapper .desc-wrapper {
+    flex: 1;
+}
+</style>
+    {% if avatar %}
+        <a href="{{ url }}"><img class="avatar" src="{{ avatar }}" ></a>
+    {% endif %}
+    <div class="desc-wrapper">
+        <a href="{{ url }}">{{ title }}</a>
+        <hr />
+        <div class="desc">{{ desc }}</div>
+    </div>
+</div>
