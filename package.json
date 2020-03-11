@@ -1,13 +1,20 @@
 {
   "name": "hexo-valkyr-url",
   "version": "1.0.0",
-  "description": "",
+  "description": "a simple url card display plugin for hexo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "hexo",
+    "plugin",
+    "url"
+  ],
   "peerDependencies": {},
-  "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Duanzm",
+    "email": "dzmtoast@gmail.com"
+  },
   "license": "ISC"
 }
