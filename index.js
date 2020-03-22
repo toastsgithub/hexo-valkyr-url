@@ -26,11 +26,4 @@ hexo.extend.tag.register(`valkyrurl`, function(args, content){
     return render(tpl, data)
 }, {
     async: true
-});
-
-hexo.extend.filter.register('after_post_render', function(data){
-    const styleElementLiteral = `<style class='valkyr-url'>${fs.readFileSync(STYLE_PATH)}</style>`
-    data.content = data.content.replace('<head>', `<head>${styleElementLiteral}`)
-    // data = '<style class="valkyr"> body { border: solid 1px red!important; }</style>' + data;
-    return data
 })
