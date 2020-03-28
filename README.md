@@ -34,7 +34,7 @@ supported options are:
 ![a03be6ca-5d5d-9d90-3c73-7011a891e903.png](http://images2.dzmtoast.top/blog-content/a03be6ca-5d5d-9d90-3c73-7011a891e903.png)
 
 
-🚨 **Attension please**
+🚨 **Attention please**
 if your option value contains whitespace, you should quote value with `""`
 
 i.e. : [title="my name is peter"] instead of [title=my name is peter]
