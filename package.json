@@ -11,10 +11,17 @@
     "plugin",
     "url"
   ],
-  "peerDependencies": {},
   "author": {
     "name": "Duanzm",
     "email": "dzmtoast@gmail.com"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "0.22.0",
+    "cross-fetch": "^4.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.7"
+  }
 }
